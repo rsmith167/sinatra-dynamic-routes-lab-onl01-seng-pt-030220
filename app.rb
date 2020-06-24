@@ -31,7 +31,11 @@ class App < Sinatra::Base
    if params[:operation] == "add"
      @result = @n1 + @n2
    elsif params[:operation] == "add"
-     @result = @n1 + @n2
+   @result = @n1 + @n2
+    elsif params[:operation] == "add"
+   @result = @n1 + @n2
+    elsif params[:operation] == "add"
+   @result = @n1 + @n2
      
  end
  
