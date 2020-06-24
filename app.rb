@@ -39,7 +39,7 @@ class App < Sinatra::Base
  end
  "#{@result.to_s}"
      
- end
+ 
  
 
 end
