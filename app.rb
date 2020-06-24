@@ -22,7 +22,7 @@ class App < Sinatra::Base
    "#{@array}"
  end
  get "/say/:word1/:word2/:word3/:word4/:word5" do
- @array_new = params[:word1] + " " + params[:word2] + " "+params[:word3] + " "+ params[:word4] + " "+params[:word5]
+ @array_new = params[:word1] + " " + params[:word2] + " "+params[:word3] + " "+ params[:word4] + " "+params[:word5]+ "."
  "{@array_new}"
  end
  get "/:operation/:number1/:number2" do
