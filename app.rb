@@ -17,6 +17,7 @@ class App < Sinatra::Base
    @phrase = params[:phrase]
    @array = []
    @number.times do @array << @phrase + ", "
+ end
    @array = @array.join
    "#{@array}"
  end
@@ -38,7 +39,7 @@ class App < Sinatra::Base
    @result = @n1 / @n2
  end
  "#{@result.to_s}"
-     
+   end
  
  
 
